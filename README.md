@@ -1,4 +1,4 @@
-# Reconnaissance faciale et identification sur des vidéos WEBCAM - Master SISE // Challenge 
+# Reconnaissance faciale et vocale sur des vidéos WEBCAM - Master SISE // Challenge 
 
 * BOUTONNET Laura
 * DHIFLAOUI Nawres
