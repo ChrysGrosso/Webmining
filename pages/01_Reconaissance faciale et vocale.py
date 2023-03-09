@@ -4,13 +4,15 @@ import pickle
 import face_recognition as fr
 import numpy as np
 import streamlit as st
-from model import ERModel
+from model import Model
 import speech_recognition as sr
+
 
 st.title('Reconnaissance faciale et vocale sur des vidéos WEBCAM')
 button_command = "allume la caméra"
 start = st.button("Allumer la caméra")
 stop = st.button("Eteindre la caméra")
+
 r = sr.Recognizer()
 if start == True:
     st.write('Vous avez cliquer sur Allumer la caméra')
@@ -54,7 +56,7 @@ FRAME_WINDOW = st.image([])
 if start : 
     ##########"Allumer la caméra##########################################
     # Chargement des modèles pré-entrainés
-    model = ERModel("model.json", "model_weights.h5")
+    model = Model("model.json", "model_weights.h5")
     data = pickle.loads(open('face_enc','rb').read())
     
     faces_encodings = data["encodings"]
@@ -169,6 +171,7 @@ if start :
         out.write(cv2.cvtColor(frame_ok, cv2.COLOR_RGB2BGR))
 
 if stop == True:
-    st.write('Vous avez coupé la caméra')                     
+    st.write('Vous avez coupé la caméra')  
+    st.button('Cliquez ici si vous voulez recommencer?')                  
 
 cv2.destroyAllWindows()
