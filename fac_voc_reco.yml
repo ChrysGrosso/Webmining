@@ -1,4 +1,4 @@
-name: webmining
+name: fac_voc_reco
 channels:
   - defaults
 dependencies:
@@ -229,4 +229,4 @@ dependencies:
     - wrapt==1.15.0
     - yapf==0.32.0
     - zipp==3.15.0
-prefix: C:\Users\rpons\anaconda3\envs\webmining
+prefix: C:\Users\rpons\anaconda3\envs\fac_voc_reco
