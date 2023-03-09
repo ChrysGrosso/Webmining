@@ -10,7 +10,7 @@ session = tf.compat.v1.Session(config=config)
 set_session(session)
 
 
-class ERModel(object):
+class Model(object):
 
     EMOTIONS_LIST = ["Enervé", "Dégouté", "Peureux", "Heureux", "Neutre", "Triste","Surpris"]
 
@@ -26,4 +26,4 @@ class ERModel(object):
         global session
         set_session(session)
         self.preds = self.loaded_model.predict(img)
-        return ERModel.EMOTIONS_LIST[np.argmax(self.preds)]
+        return Model.EMOTIONS_LIST[np.argmax(self.preds)]
