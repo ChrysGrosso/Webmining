@@ -5,7 +5,7 @@ import os
 import pickle
 
 
-my_path = "C:/Users/rpons/OneDrive/Documents/Clef_USB/M2_SISE/Challenge Web Mining/Webmining_v2/Webmining/known_faces"
+my_path = "known_faces"
 
 #get paths of each file in folder named Images
 #Images here contains my data(folders of various persons)
@@ -34,7 +34,7 @@ for imagePath in imagePaths:
 data = {"encodings": knownEncodings, "names": knownNames}
 #use pickle to save data into a file for later use
 
-f = open("C:/Users/rpons/OneDrive/Documents/Clef_USB/M2_SISE/Challenge Web Mining/Webmining_v2/Webmining/encoded_face", "wb")
+f = open("encoded_face", "wb")
 f.write(pickle.dumps(data))
 f.close()
 
