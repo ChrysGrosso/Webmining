@@ -1,15 +1,21 @@
 import streamlit as st
+from PIL import Image
+
+
+image = Image.open('C:/Users/laura/Downloads/Image.png')
 
 st.title("Application de reconnaissance faciale et vocale")
 
 st.write("Cette application a été réalisée par : Laura Boutonnet, Nawres Dhiflaoui, Chrystelle Grosso et Robin Ponson")
 
-st.write("Elle a été réalisée dans le cadre de challenge de 47 heures de Webmining 2022")
+st.write("Elle a été réalisée dans le cadre d'un de WebMining, nous disposions de 47 heures.")
 
 st.write("")
 
-st.write("Elle permet de détecter les visages présents dans une vidéo et de les identifier. Les informations concernant l'âge, le genre et l'émotiion sont également affichées.")
+st.write("Son but est de permettre la détection de visage présents dans une vidéo (webcam). Nous devions identifier les visages présent sur la webcam mais aussi leurs donner une tranche d'âge, un genre et une émotion.")
 
 st.write("")
 
-st.write("Elle présente deux onglets : un onglet accueil, un onglet reconnaissance faciale + vocale")
+st.write("L'application se présente en deux onglets : Accueil et Reconnaissance faciale + vocale")
+
+st.image(image, caption='Exemple de notre application')
