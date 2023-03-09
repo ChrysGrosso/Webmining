@@ -38,7 +38,7 @@ Vous touverez ci-dessous une image de notre page de reconnaissance faciale + voc
 
 ![image](https://user-images.githubusercontent.com/83652394/224178169-042e8ce7-033e-4693-8550-38d7c4773ccf.png) 
 
-Arrivé sur cette page, vous pouvez dire à voix haute : "Allume la caméra. 
+Arrivé sur cette page, vous pouvez dire à voix haute : "Allume la caméra". 
 
 Un message comme quoi vous avez allumé la caméra s'affiche. 
 
