@@ -1,4 +1,4 @@
-# Reconnaissance faciale et vocale sur des vidéos WEBCAM - Master SISE // Challenge 
+# Reconnaissance faciale et vocale d'identification sur des vidéos WEBCAM - Master SISE // Challenge 
 
 * BOUTONNET Laura
 * DHIFLAOUI Nawres
@@ -38,25 +38,22 @@ Vous touverez ci-dessous une image de notre page de reconnaissance faciale + voc
 
 ![image](https://user-images.githubusercontent.com/83652394/224178169-042e8ce7-033e-4693-8550-38d7c4773ccf.png) 
 
-Arrivé sur cette page, vous pouvez dire à voix haute : "Allume la caméra". 
+Arriver sur cette page, vous pouvez dire à voix haute : "Allume la caméra". 
 
-Un message comme quoi vous avez allumé la caméra s'affiche. 
+Le message : Vous avez cliqué sur Allumer la caméra s'affiche
 
-Au bout d'un petit temps, la caméra va s'ouvrir et vous pourrez apprécier les différentes fonctionnalités de reconnaissance faciale.
+Au bout d'un petit moment, la caméra va s'ouvrir et vous pourrez apprécier les différentes fonctionnalités de reconnaissance faciale.
 
-Pour arrêter la webcam, cliquer succcesivement deux fois sur arrêter la caméra.
+Pour arrêter la webcam, cliquer succcesivement deux fois sur eteindre la caméra.
 
-Si vous voulez relancer la caméra, cliquer sur "Cliquez ici si vous voulez recommencer" et dîtes, "allume la caméra". 
+Si vous voulez relancer la caméra, cliquer sur "Cliquez ici si vous voulez recommencer" et dîtes, "allume la caméra" (vous pouvez auusi cliquer sur ce bouton pour l'allumer (un message va alors s'afficher pour vous notifier que la caméra va s'allumer et vous dire par quel moyen la caméra s'est lancée)).
 
-Une fois que vous voulez arrêter la webcam, cliquer sur "Eteindre la caméra" et fermer la page et le prompt d'Anaconda. 
+Quand vous voudrez arrêter la webcam, cliquer sur "Eteindre la caméra", si vous voulez quitter l'application et voir l'enregistrement que vous avez généré, vous pouvez fermer la page et le prompt d'Anaconda. 
 
 Vous pourrez trouver la vidéo dans votre réperoire courant sous le nom "vidéo.mp4" (voir ci-dessous).
 
 ![image](https://user-images.githubusercontent.com/83652394/224183211-f66a2155-e86b-4d67-8943-a9aeba3d838b.png)
 
 Bonne découverte !
-
-
-
 
 
