@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 
-image = Image.open('C:/Users/laura/Downloads/Image.png')
+image = Image.open('Image.png')
 
 st.title("Application de reconnaissance faciale et vocale")
 
