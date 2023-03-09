@@ -52,7 +52,7 @@ Une fois que vous voulez arrêter la webcam, cliquer sur "Eteindre la caméra" e
 
 Vous pourrez trouver la vidéo dans votre réperoire courant sous le nom "vidéo.mp4" (voir ci-dessous).
 
-![image](https://user-images.githubusercontent.com/83652394/224183069-6d4ee171-40c2-4a47-adb6-a065e5cbaff5.png)
+![image](https://user-images.githubusercontent.com/83652394/224183211-f66a2155-e86b-4d67-8943-a9aeba3d838b.png)
 
 Bonne découverte !
 
