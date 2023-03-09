@@ -57,7 +57,7 @@ if start :
     ##########"Allumer la caméra##########################################
     # Chargement des modèles pré-entrainés
     model = Model("model.json", "model_weights.h5")
-    data = pickle.loads(open('face_enc','rb').read())
+    data = pickle.loads(open('encoded_face','rb').read())
     
     faces_encodings = data["encodings"]
     faces_names = data["names"]
