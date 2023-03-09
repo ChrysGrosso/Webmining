@@ -97,7 +97,7 @@ if start :
     padding = 20
     frame_width = int(cap.get(3))
     frame_height = int(cap.get(4))
-    out = cv2.VideoWriter('D:/m2 sise/test.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 5, (frame_width,frame_height))
+    out = cv2.VideoWriter('video.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 5, (frame_width,frame_height))
     face_names = []
     while cv2.waitKey(1) < 0:
         hasFrame, frame = cap.read()
