@@ -15,7 +15,7 @@ stop = st.button("Eteindre la caméra")
 
 r = sr.Recognizer()
 if start == True:
-    st.write('Vous avez cliquer sur Allumer la caméra')
+    st.write('Vous avez cliqué sur Allumer la caméra')
 elif stop != True: 
     # Écoute de la commande vocale
     while True:
@@ -27,7 +27,7 @@ elif stop != True:
             if button_command in text.lower():
                 # Clique sur le bouton si la commande vocale est valide
                 start = True
-                st.write('Vous avez déclanché la caméra par commande vocale')
+                st.write('Vous avez déclenché la caméra par commande vocale')
                 break
         except:
             continue
@@ -172,6 +172,6 @@ if start :
 
 if stop == True:
     st.write('Vous avez coupé la caméra')  
-    st.button('Cliquez ici si vous voulez recommencer?')                  
+    st.button('Cliquez ici si vous voulez recommencer')                  
 
 cv2.destroyAllWindows()
