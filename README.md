@@ -5,7 +5,19 @@
 * GROSSO Chrystelle
 * PONSON Robin
 
-## Utilisation de l'application
+# Installation de Cmake
+
+Avant de pouvoir tester notre applicationn il vous faut installer cmake, prérequis pour la librairie dlib, utilisée dans notre application. 
+
+Pour celà, cliquer sur ce lien. 
+
+https://cmake.org/download/
+
+Ensuite, cliquer sur installer la version Windows *64 comme ci-dessous. 
+
+![image](https://user-images.githubusercontent.com/83652394/224253280-d193e404-1adc-45c4-8866-cc1f5aeff606.png)
+
+# Utilisation de l'application
 
 1. Télécharger le dossier.zip et extrayez le dans le répertoire de votre choix. 
 2. Installer l'environnement conda "fac_voc_reco.yml" et l'activer.
