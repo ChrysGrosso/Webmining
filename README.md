@@ -46,7 +46,7 @@ Au bout d'un petit moment, la caméra va s'ouvrir et vous pourrez apprécier les
 
 Pour arrêter la webcam, cliquer succcesivement deux fois sur eteindre la caméra.
 
-Si vous voulez relancer la caméra, cliquer sur "Cliquez ici si vous voulez recommencer" et dîtes, "allume la caméra" (vous pouvez auusi cliquer sur ce bouton pour l'allumer (un message va alors s'afficher pour vous notifier que la caméra va s'allumer et vous dire par quel moyen la caméra s'est lancée)).
+Si vous voulez relancer la caméra, cliquer sur "Cliquez ici si vous voulez recommencer" et dîtes, "allume la caméra" (vous pouvez auusi cliquer sur ce bouton pour l'allumer, un message va alors s'afficher pour vous notifier que la caméra va s'allumer et vous dire par quel moyen la caméra s'est lancée).
 
 Quand vous voudrez arrêter la webcam, cliquer sur "Eteindre la caméra", si vous voulez quitter l'application et voir l'enregistrement que vous avez généré, vous pouvez fermer la page et le prompt d'Anaconda. 
 
