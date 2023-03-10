@@ -169,6 +169,12 @@ if start :
         # Affichage de l'image sur l'application
         FRAME_WINDOW.image(frame_ok)
         out.write(cv2.cvtColor(frame_ok, cv2.COLOR_RGB2BGR))
+    
+    if stop == True:
+        cap.release()
+        out.release()
+        st.write('Vous avez coupé la caméra')  
+        st.button('Cliquez ici si vous voulez recommencer')    
 
 if stop == True:
     st.write('Vous avez coupé la caméra')  
