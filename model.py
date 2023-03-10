@@ -12,7 +12,7 @@ set_session(session)
 
 class Model(object):
 
-    EMOTIONS_LIST = ["Enervé", "Dégouté", "Peureux", "Heureux", "Neutre", "Triste","Surpris"]
+    EMOTIONS_LIST = ["Enerve", "Dégoute", "Peureux", "Heureux", "Neutre", "Triste","Surpris"]
 
     def __init__(self, model_json_file, model_weights_file):
 
