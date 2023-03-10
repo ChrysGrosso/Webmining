@@ -12,7 +12,7 @@ st.write("Elle a été réalisée dans le cadre d'un de WebMining, nous disposio
 
 st.write("")
 
-st.write("Son but est de permettre la détection de visage présents dans une vidéo (webcam). Nous devions identifier les visages présent sur la webcam mais aussi leurs donner une tranche d'âge, un genre et une émotion.")
+st.write("Son but est de permettre la détection de visage présents dans une vidéo (webcam). Nous devions identifier les visages présents sur la webcam mais aussi leurs donner une tranche d'âge, un genre et une émotion.")
 
 st.write("")
 
