@@ -54,6 +54,17 @@ Vous pourrez trouver la vidéo dans votre réperoire courant sous le nom "vidéo
 
 ![image](https://user-images.githubusercontent.com/83652394/224183211-f66a2155-e86b-4d67-8943-a9aeba3d838b.png)
 
+# Actualisation de la base de données d'entraînement 
+
+Si vous souhaitez ajouter un ou plusieurs individus dans les known_faces (veillez à ce que la photo soi au format ".jpeg"), mettez la photo dans ce répertoire. 
+
+Ensuite, via une console comme le terminal de Visual Studio Code ou un Anaconda Prompt, éxécutez la commande suivante : 
+
+```
+python encoding_train.py
+```
+Ce fichier actualisera les données présentes dans le fichier "encoded_face". Celui-ci qui contient les caractéristiques des visages de chacun des individu présent dans la base de données.
+
 Bonne découverte !
 
 
