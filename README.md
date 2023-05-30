@@ -7,7 +7,7 @@
 
 # Installation de Cmake
 
-Avant de pouvoir tester notre applicationn il vous faut installer cmake, prérequis pour la librairie dlib, utilisée dans notre application. 
+Avant de pouvoir tester notre application il vous faut installer cmake, prérequis pour la librairie dlib, utilisée dans notre application. 
 
 Pour celà, cliquer sur ce lien. 
 
